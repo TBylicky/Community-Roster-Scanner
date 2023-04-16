@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+	<head>
+      <meta charset="UTF-8" />
+      <title>WoW Character Comparison</title>
+      <script type="module" src="./config.js"></script>
+      <script type="module" src="./main.js"></script>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+	</head>
+	<body>
+		<h1>WoW Character Comparison</h1>
+		<form>
+			<label for="character">Character:</label>
+			<input type="text" id="character" name="character" required>
+			<label for="fileUpload">Upload character list:</label>
+			<input type="file" id="fileInput" name="fileInput" accept=".txt,.lua">
+            <p></p>
+			<button type="submit">Compare Pet Collections</button>
+		</form>
+        <p>You'll want the name of the player you are checking out, and the list that comes from the Com Roster addon.  When using the addon, the list will output to your saved variables folder under your account, in the same folder that has your realm folders for your characters (can't really change that).</p>
+		<br>
+		<div id="results"></div>
+	</body>
+</html>

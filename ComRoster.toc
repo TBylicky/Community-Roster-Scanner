@@ -1,0 +1,8 @@
+## Interface: 100500
+## Title: ComRoster
+## Notes: Allows you to download a .lua file of players in your community.  It includes: names, faction, and player id number. I don't think this is going to need any updates anytime soon-- unless communities get a HUGE overhaul.
+## Author: Vailnite
+## Version: 1.0
+## SavedVariables: PLAYER_ROSTER
+
+ComRoster.lua
